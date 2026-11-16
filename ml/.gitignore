@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+# Datasets and checkpoints are large; they are downloaded or produced locally.
+data/
+runs/

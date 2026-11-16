@@ -1,0 +1,72 @@
+{
+  "maize___Gray_leaf_spot": {
+    "cause": "Fungus (Cercospora zeae-maydis)",
+    "symptoms": [
+      "Leaf spots are long (up to 2 inches), narrow, rectangular and light tan.",
+      "The spots later turn grey.",
+      "Spots usually stay between the leaf veins, but can join together and kill whole leaves."
+    ],
+    "treatment": [
+      "Foliar fungicides labelled for gray leaf spot are available."
+    ],
+    "prevention": [
+      "Plant resistant hybrids.",
+      "Rotate crops and till: both reduce the survival of the fungus."
+    ],
+    "severity": null,
+    "sources": [
+      {
+        "title": "Gray Leaf Spot of Corn, Crop Protection Network",
+        "url": "https://cropprotectionnetwork.org/encyclopedia/gray-leaf-spot-of-corn"
+      }
+    ]
+  },
+  "maize___Northern_leaf_blight": {
+    "cause": "Fungus (Setosphaeria turcica)",
+    "symptoms": [
+      "Leaf spots are long (1 to 6 inches) and elliptical.",
+      "Spots are grey-green at first, then turn pale grey or tan.",
+      "In moist conditions the spots look dirty grey from dark spores.",
+      "Whole leaves can die on badly blighted plants."
+    ],
+    "treatment": [
+      "Foliar fungicides labelled for northern corn leaf blight can be used."
+    ],
+    "prevention": [
+      "Grow resistant hybrids wherever the disease is a potential problem.",
+      "Rotate crops and reduce surface residue through tillage."
+    ],
+    "severity": "Among the corn diseases causing the greatest yield losses in the northern United States.",
+    "sources": [
+      {
+        "title": "Northern Corn Leaf Blight of Corn, Crop Protection Network",
+        "url": "https://cropprotectionnetwork.org/encyclopedia/northern-corn-leaf-blight-of-corn"
+      },
+      {
+        "title": "Corn Disease Loss Estimates from the United States and Ontario, Canada, 2024, Crop Protection Network",
+        "url": "https://cropprotectionnetwork.org/publications/corn-disease-loss-estimates-from-the-united-states-and-ontario-canada-2024"
+      }
+    ]
+  },
+  "maize___Common_rust": {
+    "cause": "Fungus (Puccinia sorghi)",
+    "symptoms": [
+      "Pale flecks appear on the leaf surface.",
+      "The flecks develop into powdery, brick-red pustules that are oval or elongated.",
+      "Leaf tissue around the pustules may turn yellow or die."
+    ],
+    "treatment": [
+      "Treatment is rarely needed: common rust is seldom a concern in hybrid corn."
+    ],
+    "prevention": [
+      "Plant resistant hybrids."
+    ],
+    "severity": "Occurs every growing season but is seldom a concern in hybrid corn.",
+    "sources": [
+      {
+        "title": "Common Rust of Corn, Crop Protection Network",
+        "url": "https://cropprotectionnetwork.org/encyclopedia/common-rust-of-corn"
+      }
+    ]
+  }
+}

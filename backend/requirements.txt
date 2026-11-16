@@ -1,0 +1,14 @@
+# Web service
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+pydantic-settings>=2.4
+httpx>=0.27
+
+# Images and the CNN (runs the exported ONNX model; training lives in ../ml)
+pillow>=10.4
+numpy>=1.26
+onnxruntime>=1.19
+
+# Tests
+pytest>=8.3

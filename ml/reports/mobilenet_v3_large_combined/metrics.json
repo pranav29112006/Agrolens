@@ -1,0 +1,485 @@
+{
+  "run": "mobilenet_v3_large_combined",
+  "arch": "mobilenet_v3_large",
+  "data": "combined",
+  "test_images": 17477,
+  "classes": 189,
+  "temperature": 0.6385620274716398,
+  "confidence_threshold": 0.6,
+  "crop_first": {
+    "accuracy": 0.9696172111918522,
+    "macro_f1": 0.939740010957294,
+    "weighted_f1": 0.9696048336135143,
+    "expected_calibration_error": 0.016340395229811414,
+    "share_sent_to_expert": 0.009955942095325243,
+    "accuracy_when_confident": 0.9758423394787031,
+    "accuracy_when_unsure": 0.3505747126436782
+  },
+  "open": {
+    "accuracy": 0.9665846541168392,
+    "macro_f1": 0.9349432134139032,
+    "weighted_f1": 0.9666005265075375,
+    "expected_calibration_error": 0.010031999561710803,
+    "share_sent_to_expert": 0.012759626938261714,
+    "accuracy_when_confident": 0.9744407094007187,
+    "accuracy_when_unsure": 0.35874439461883406
+  },
+  "by_source": {
+    "banana_lsd": {
+      "images": 136,
+      "accuracy": 0.9926470588235294,
+      "macro_f1": 0.9864773495605139
+    },
+    "bean_sirajganj": {
+      "images": 135,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "black_gram": {
+      "images": 604,
+      "accuracy": 0.9884105960264901,
+      "macro_f1": 0.9838715992416928
+    },
+    "brinjal_slif": {
+      "images": 217,
+      "accuracy": 0.8064516129032258,
+      "macro_f1": 0.8065822005096546
+    },
+    "cabbage": {
+      "images": 20,
+      "accuracy": 0.85,
+      "macro_f1": 0.849624060150376
+    },
+    "cassava_tn": {
+      "images": 35,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "cauliflower_bd": {
+      "images": 397,
+      "accuracy": 0.871536523929471,
+      "macro_f1": 0.8645313133202407
+    },
+    "chilli_bd": {
+      "images": 224,
+      "accuracy": 0.9910714285714286,
+      "macro_f1": 0.9906310174678495
+    },
+    "coconut_tree": {
+      "images": 774,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "cotton_sarcld": {
+      "images": 321,
+      "accuracy": 0.9875389408099688,
+      "macro_f1": 0.9885059967196603
+    },
+    "cucumber_bd": {
+      "images": 192,
+      "accuracy": 0.9322916666666666,
+      "macro_f1": 0.9206900086467751
+    },
+    "groundnut_raw": {
+      "images": 461,
+      "accuracy": 0.9067245119305857,
+      "macro_f1": 0.9285832221576072
+    },
+    "guava_leaf_fruit": {
+      "images": 525,
+      "accuracy": 0.9942857142857143,
+      "macro_f1": 0.9944216739963219
+    },
+    "lemon_bd": {
+      "images": 536,
+      "accuracy": 0.8675373134328358,
+      "macro_f1": 0.8832417181634409
+    },
+    "litchi_jackfruit": {
+      "images": 468,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "mango_bd": {
+      "images": 322,
+      "accuracy": 0.9906832298136646,
+      "macro_f1": 0.9904020598659509
+    },
+    "papaya_zucchini_gourd": {
+      "images": 106,
+      "accuracy": 0.7830188679245284,
+      "macro_f1": 0.7374358226912406
+    },
+    "pigeonpea": {
+      "images": 77,
+      "accuracy": 0.8831168831168831,
+      "macro_f1": 0.9013986013986014
+    },
+    "pineapple": {
+      "images": 313,
+      "accuracy": 0.9584664536741214,
+      "macro_f1": 0.9591409818644012
+    },
+    "plantdoc": {
+      "images": 208,
+      "accuracy": 0.7788461538461539,
+      "macro_f1": 0.7389006300122042
+    },
+    "plantvillage": {
+      "images": 8038,
+      "accuracy": 0.9972630007464544,
+      "macro_f1": 0.9958080706343161
+    },
+    "rice_sethy": {
+      "images": 66,
+      "accuracy": 0.9242424242424242,
+      "macro_f1": 0.7242160737812912
+    },
+    "rose_marigold": {
+      "images": 487,
+      "accuracy": 0.8521560574948666,
+      "macro_f1": 0.8372057074113025
+    },
+    "sesame_pabna": {
+      "images": 513,
+      "accuracy": 0.9590643274853801,
+      "macro_f1": 0.9577993607081386
+    },
+    "sorghum": {
+      "images": 926,
+      "accuracy": 0.9924406047516199,
+      "macro_f1": 0.8433588948464278
+    },
+    "soybean_field": {
+      "images": 72,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "sugarcane_maharashtra": {
+      "images": 345,
+      "accuracy": 0.9768115942028985,
+      "macro_f1": 0.9763671035819369
+    },
+    "sunflower_bd": {
+      "images": 87,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "tea_reallife": {
+      "images": 139,
+      "accuracy": 0.5899280575539568,
+      "macro_f1": 0.5773931538717182
+    },
+    "turmeric": {
+      "images": 145,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "veg4_rajshahi": {
+      "images": 527,
+      "accuracy": 0.9924098671726755,
+      "macro_f1": 0.9920482422988688
+    },
+    "wheat_ethiopia": {
+      "images": 61,
+      "accuracy": 0.9836065573770492,
+      "macro_f1": 0.9832147418354316
+    }
+  },
+  "by_crop": {
+    "apple": {
+      "images": 505,
+      "accuracy": 0.996039603960396,
+      "macro_f1": 0.9954000807851767
+    },
+    "banana": {
+      "images": 136,
+      "accuracy": 0.9926470588235294,
+      "macro_f1": 0.9864773495605139
+    },
+    "bean": {
+      "images": 135,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "bitter_gourd": {
+      "images": 208,
+      "accuracy": 0.9903846153846154,
+      "macro_f1": 0.98994708994709
+    },
+    "black_green_gram": {
+      "images": 604,
+      "accuracy": 0.9884105960264901,
+      "macro_f1": 0.9838715992416928
+    },
+    "brinjal": {
+      "images": 217,
+      "accuracy": 0.8064516129032258,
+      "macro_f1": 0.8065822005096546
+    },
+    "cabbage": {
+      "images": 20,
+      "accuracy": 0.85,
+      "macro_f1": 0.849624060150376
+    },
+    "capsicum_chilli": {
+      "images": 611,
+      "accuracy": 0.9950900163666121,
+      "macro_f1": 0.9927186447949159
+    },
+    "cassava": {
+      "images": 35,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "cauliflower": {
+      "images": 397,
+      "accuracy": 0.871536523929471,
+      "macro_f1": 0.8645313133202407
+    },
+    "cherry": {
+      "images": 296,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "citrus": {
+      "images": 1362,
+      "accuracy": 0.9478707782672541,
+      "macro_f1": 0.9121801034521722
+    },
+    "coconut": {
+      "images": 774,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "cotton": {
+      "images": 321,
+      "accuracy": 0.9875389408099688,
+      "macro_f1": 0.9885059967196603
+    },
+    "cucumber": {
+      "images": 192,
+      "accuracy": 0.9322916666666666,
+      "macro_f1": 0.9206900086467751
+    },
+    "grape": {
+      "images": 631,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "guava": {
+      "images": 525,
+      "accuracy": 0.9942857142857143,
+      "macro_f1": 0.9944216739963219
+    },
+    "litchi": {
+      "images": 468,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "maize": {
+      "images": 600,
+      "accuracy": 0.9733333333333334,
+      "macro_f1": 0.9641547794086491
+    },
+    "mango": {
+      "images": 322,
+      "accuracy": 0.9906832298136646,
+      "macro_f1": 0.9904020598659509
+    },
+    "marigold": {
+      "images": 94,
+      "accuracy": 0.9680851063829787,
+      "macro_f1": 0.9306501547987617
+    },
+    "no_leaf": {
+      "images": 172,
+      "accuracy": 0.9883720930232558,
+      "macro_f1": 0.3313840155945419
+    },
+    "okra": {
+      "images": 162,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "papaya": {
+      "images": 56,
+      "accuracy": 0.6785714285714286,
+      "macro_f1": 0.5924330055909003
+    },
+    "peach": {
+      "images": 407,
+      "accuracy": 0.9975429975429976,
+      "macro_f1": 0.9953351900881385
+    },
+    "peanut": {
+      "images": 461,
+      "accuracy": 0.9067245119305857,
+      "macro_f1": 0.9285832221576072
+    },
+    "pigeon_pea_red_gram": {
+      "images": 77,
+      "accuracy": 0.8831168831168831,
+      "macro_f1": 0.9013986013986014
+    },
+    "pineapple": {
+      "images": 313,
+      "accuracy": 0.9584664536741214,
+      "macro_f1": 0.9591409818644012
+    },
+    "potato": {
+      "images": 334,
+      "accuracy": 0.9910179640718563,
+      "macro_f1": 0.9935688658663938
+    },
+    "pumpkin": {
+      "images": 439,
+      "accuracy": 0.9954441913439636,
+      "macro_f1": 0.9914988087502707
+    },
+    "rice": {
+      "images": 66,
+      "accuracy": 0.9242424242424242,
+      "macro_f1": 0.7242160737812912
+    },
+    "rose": {
+      "images": 393,
+      "accuracy": 0.8244274809160306,
+      "macro_f1": 0.7671223718707084
+    },
+    "sesame": {
+      "images": 513,
+      "accuracy": 0.9590643274853801,
+      "macro_f1": 0.9577993607081386
+    },
+    "sorghum": {
+      "images": 926,
+      "accuracy": 0.9924406047516199,
+      "macro_f1": 0.8433588948464278
+    },
+    "soybean": {
+      "images": 843,
+      "accuracy": 0.9988137603795967,
+      "macro_f1": 0.9934210796492884
+    },
+    "strawberry": {
+      "images": 244,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "sugarcane": {
+      "images": 345,
+      "accuracy": 0.9768115942028985,
+      "macro_f1": 0.9763671035819369
+    },
+    "sunflower": {
+      "images": 87,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "tea": {
+      "images": 139,
+      "accuracy": 0.5899280575539568,
+      "macro_f1": 0.5773931538717182
+    },
+    "tomato": {
+      "images": 2791,
+      "accuracy": 0.9849516302400573,
+      "macro_f1": 0.9776245543786416
+    },
+    "turmeric": {
+      "images": 145,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "wheat": {
+      "images": 61,
+      "accuracy": 0.9836065573770492,
+      "macro_f1": 0.9832147418354316
+    },
+    "zucchini": {
+      "images": 50,
+      "accuracy": 0.9,
+      "macro_f1": 0.8824386397915809
+    }
+  },
+  "top_confusions": [
+    {
+      "true": "peanut___Early_leaf_spot",
+      "predicted": "peanut___healthy",
+      "count": 29
+    },
+    {
+      "true": "rose___Botrytis_blight",
+      "predicted": "rose___healthy",
+      "count": 22
+    },
+    {
+      "true": "cauliflower___Black_rot",
+      "predicted": "cauliflower___healthy",
+      "count": 13
+    },
+    {
+      "true": "citrus___Citrus_greening",
+      "predicted": "citrus___Swallowtail_caterpillar_damage",
+      "count": 12
+    },
+    {
+      "true": "cauliflower___Insect_damage",
+      "predicted": "cauliflower___healthy",
+      "count": 11
+    },
+    {
+      "true": "citrus___Leaf_curl",
+      "predicted": "citrus___Leafminer",
+      "count": 11
+    },
+    {
+      "true": "citrus___Leafminer",
+      "predicted": "citrus___Leaf_curl",
+      "count": 11
+    },
+    {
+      "true": "rose___Pest_damage",
+      "predicted": "rose___Botrytis_blight",
+      "count": 11
+    },
+    {
+      "true": "rose___Botrytis_blight",
+      "predicted": "rose___Mosaic_virus",
+      "count": 10
+    },
+    {
+      "true": "cucumber___Anthracnose",
+      "predicted": "cucumber___Gummy_stem_blight",
+      "count": 9
+    },
+    {
+      "true": "tea___Grey_blight",
+      "predicted": "tea___Algal_leaf_spot",
+      "count": 9
+    },
+    {
+      "true": "cauliflower___Insect_damage",
+      "predicted": "cauliflower___Black_rot",
+      "count": 8
+    },
+    {
+      "true": "cauliflower___healthy",
+      "predicted": "cauliflower___Insect_damage",
+      "count": 8
+    },
+    {
+      "true": "citrus___Citrus_greening",
+      "predicted": "citrus___Leaf_curl",
+      "count": 8
+    },
+    {
+      "true": "peanut___healthy",
+      "predicted": "peanut___Early_leaf_spot",
+      "count": 7
+    }
+  ],
+  "accuracy": 0.9696172111918522,
+  "macro_f1": 0.939740010957294
+}

@@ -1,0 +1,58 @@
+AgroLens - how to start the server and run the app on your phone (Expo Go)
+==========================================================================
+
+One-time setup
+--------------
+1. Install Node.js (LTS) and Python 3.12.
+2. Backend:
+     cd backend
+     py -3.12 -m venv .venv
+     .venv\Scripts\python -m pip install -r requirements.txt
+     copy .env.example .env          (fill in Supabase URL / anon key, optional GEMINI_API_KEY)
+3. Mobile app:
+     cd mobile
+     npm install
+     copy .env.example .env          (fill in EXPO_PUBLIC_SUPABASE_URL / EXPO_PUBLIC_SUPABASE_ANON_KEY)
+4. On the phone install "Expo Go" (Play Store / App Store). Its SDK must match the
+   project (Expo SDK 57).
+
+Every time (3 terminals, all started from the project folder D:\Agrolens)
+--------------------------------------------------------------------------
+Terminal 1 - backend API:
+     backend\.venv\Scripts\python -m uvicorn app.main:app --app-dir backend --host 0.0.0.0 --port 8000
+   Check: open http://127.0.0.1:8000/health in a browser.
+
+Terminal 2 - public tunnel for the backend (so the phone can reach it from any network):
+     .tools\cloudflared.exe tunnel --url http://127.0.0.1:8000
+   It prints a URL like https://something-random.trycloudflare.com
+   This URL CHANGES every run. Put it in mobile\.env:
+     EXPO_PUBLIC_API_URL=https://something-random.trycloudflare.com
+   (Alternative if phone and laptop are on the same Wi-Fi: skip the tunnel and use
+    EXPO_PUBLIC_API_URL=http://<laptop Wi-Fi IP, from ipconfig>:8000 )
+
+Terminal 3 - Expo dev server:
+     cd mobile
+     npm run start:tunnel -- --clear
+   (--clear makes Expo pick up the new .env value. If phone and laptop share Wi-Fi
+    you can use "npm start" instead, which is faster than the tunnel.)
+   A QR code appears in the terminal.
+
+On the phone
+------------
+- Android: open Expo Go -> "Scan QR code" -> scan the QR in Terminal 3.
+- iPhone: scan the QR with the Camera app; it opens in Expo Go.
+- Shake the phone (or press "r" in Terminal 3) to reload.
+
+Start screen
+------------
+mobile\.env contains EXPO_PUBLIC_FRESH_START=true. With it, the app forgets its saved
+setup on every launch and always opens at language selection (not the sign-in page).
+Remove that line (and restart Expo with --clear) to keep the setup between launches.
+
+Troubleshooting
+---------------
+- "Network request failed" in the app: the backend URL in mobile\.env is stale or the
+  backend/tunnel is not running. Update the URL and restart Expo with --clear.
+- QR does not connect: use the tunnel mode (npm run start:tunnel), or check firewall.
+- Port 8081 busy: close the old Expo terminal, or answer "yes" to use another port.
+- /diagnose returns 503: the model file backend\models\agrolens.onnx is missing.

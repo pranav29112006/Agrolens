@@ -1,0 +1,101 @@
+{
+  "capsicum_chilli___Anthracnose": {
+    "cause": "Fungus (Colletotrichum capsici), also called fruit rot and die-back",
+    "symptoms": [
+      "Infection usually begins at flowering: flowers dry up and drop in large numbers.",
+      "Tender twigs die from the tip backwards, and the drying spreads to branches and the stem.",
+      "On ripe fruit turning red, small black circular spots appear; badly diseased fruit turns straw-coloured.",
+      "Partly affected plants bear few fruits, of low quality."
+    ],
+    "treatment": [
+      "Three sprayings give good control: Ziram 0.25%, Captan 0.2% or Miltox 0.2%.",
+      "Wettable sulphur 0.2%, copper oxychloride 0.25% and Zineb 0.15% also reduced the disease and increased fruit yield.",
+      "Spray first just before flowering, again when fruit forms, and a third time a fortnight after the second."
+    ],
+    "prevention": [
+      "Use disease-free seed.",
+      "Treat seed with Thiram or Captan at 4 g per kg to remove infection carried on the seed."
+    ],
+    "severity": null,
+    "sources": [
+      {
+        "title": "Chilli: Fruit Rot and Die Back, TNAU Agritech Portal",
+        "url": "https://agritech.tnau.ac.in/crop_protection/chilli_diseases_2.html"
+      },
+      {
+        "title": "Chilli: Anthracnose, TNAU Agritech Portal",
+        "url": "https://agritech.tnau.ac.in/crop_protection/chilli_phdiseases_2.html"
+      }
+    ]
+  },
+  "capsicum_chilli___Bacterial_spot": {
+    "cause": "Bacteria (bacterial leaf spot of chilli)",
+    "symptoms": [
+      "Leaves show small circular or irregular, dark brown or black greasy spots.",
+      "As spots enlarge, the centre becomes lighter, surrounded by a dark band.",
+      "Badly affected leaves turn yellow and fall off.",
+      "Fruits develop round, raised, water-soaked spots with a pale yellow border."
+    ],
+    "treatment": [
+      "Spray mancozeb at 2 g per litre or copper oxychloride at 2.5 g per litre.",
+      "Seedlings may be sprayed with Bordeaux mixture 1% or copper oxychloride 0.25%.",
+      "Do not spray streptomycin once fruits begin to form."
+    ],
+    "prevention": [
+      "Keep the field clean of infected plant material.",
+      "Take seed only from disease-free plants."
+    ],
+    "severity": null,
+    "sources": [
+      {
+        "title": "Chilli: Bacterial leaf spot, TNAU Agritech Portal",
+        "url": "https://agritech.tnau.ac.in/crop_protection/chilli_diseases_4.html"
+      }
+    ]
+  },
+  "capsicum_chilli___Cercospora_leaf_spot": {
+    "cause": "Fungus (Cercospora capsici)",
+    "symptoms": [
+      "Leaf spots are brown and circular, with small to large light grey centres and dark brown edges.",
+      "Spots may grow to 1 cm or more and sometimes merge.",
+      "Spots on stems, leaf stalks and pods are elliptical with light grey centres and dark borders."
+    ],
+    "treatment": [
+      "Spray twice, 10 to 15 days apart, with Mancozeb 0.25% or Chlorothalonil 0.1%."
+    ],
+    "prevention": [],
+    "severity": "Badly infected leaves drop early, which reduces yield.",
+    "sources": [
+      {
+        "title": "Chilli: Cercospora leaf spot, TNAU Agritech Portal",
+        "url": "https://agritech.tnau.ac.in/crop_protection/chilli_diseases_5.html"
+      }
+    ]
+  },
+  "capsicum_chilli___Leaf_curl": {
+    "cause": "Virus, generally spread by whiteflies",
+    "symptoms": [
+      "Leaves curl towards the midrib and become deformed.",
+      "Plants are stunted, with shortened stem sections and much smaller leaves.",
+      "Flower buds drop before reaching full size."
+    ],
+    "treatment": [
+      "There is no known cure for most viral diseases; mechanical and cultural methods are recommended.",
+      "Uproot infected plants as soon as they are noticed and burn or bury them.",
+      "Controlling the whitefly that carries the virus helps; the source recommends systemic insecticide sprays of Dimethoate 2 ml or Acephate 1 g per litre of water."
+    ],
+    "prevention": [
+      "Select healthy, disease-free seed.",
+      "Cover nursery beds with nylon net or straw to protect seedlings.",
+      "Raise 2 to 3 rows of maize or sorghum as a border crop to restrict insect carriers.",
+      "Avoid growing chilli as a monoculture."
+    ],
+    "severity": null,
+    "sources": [
+      {
+        "title": "Chilli: Viral diseases (leaf curl), TNAU Agritech Portal",
+        "url": "https://agritech.tnau.ac.in/crop_protection/chilli_diseases_7.html"
+      }
+    ]
+  }
+}

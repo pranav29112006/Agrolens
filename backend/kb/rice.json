@@ -1,0 +1,107 @@
+{
+  "rice___Blast": {
+    "cause": "Fungus (Magnaporthe oryzae)",
+    "symptoms": [
+      "First signs are white to grey-green spots with dark green borders.",
+      "Older spots are elliptical or spindle-shaped, whitish to grey, with a dead border.",
+      "Some spots are diamond-shaped: wide in the middle and pointed at both ends.",
+      "Spots can grow and merge until the whole leaf dies."
+    ],
+    "treatment": [
+      "Systemic fungicides such as triazoles and strobilurins can be used, with care.",
+      "A fungicide application at heading can control the disease."
+    ],
+    "prevention": [
+      "Plant resistant varieties.",
+      "Sow early, soon after the rainy season starts.",
+      "Split nitrogen fertiliser into several applications and avoid excess.",
+      "Keep the field flooded as often as possible.",
+      "Silicon fertiliser can reduce blast; if straw is used as the silicon source, it must be free of blast."
+    ],
+    "severity": "Severe leaf blast reduces grain yield.",
+    "sources": [
+      {
+        "title": "Blast (leaf and collar), IRRI Rice Knowledge Bank",
+        "url": "http://www.knowledgebank.irri.org/training/fact-sheets/pest-management/diseases/item/blast-leaf-collar"
+      }
+    ]
+  },
+  "rice___Brown_spot": {
+    "cause": "Fungus (rice brown spot)",
+    "symptoms": [
+      "Seedlings show small, circular, yellow-brown or brown spots.",
+      "Spots on leaves later turn dark brown to purple-brown.",
+      "Fully developed spots are circular to oval with a light brown to grey centre and a reddish-brown edge."
+    ],
+    "treatment": [
+      "Improve soil fertility: check soil nutrients and apply the fertilisers that are needed.",
+      "Fungicides such as iprodione, propiconazole and azoxystrobin are used as seed treatments."
+    ],
+    "prevention": [
+      "Plant resistant varieties.",
+      "Monitor soil nutrients regularly and keep the soil fertile.",
+      "On soils low in silicon, apply calcium silicate slag before planting.",
+      "Treat seed with hot water before planting to control infection carried on the seed."
+    ],
+    "severity": "The many large spots can kill the whole leaf, and infection leads to poorly filled, lower quality grain.",
+    "sources": [
+      {
+        "title": "Brown spot, IRRI Rice Knowledge Bank",
+        "url": "http://www.knowledgebank.irri.org/training/fact-sheets/pest-management/diseases/item/brown-spot"
+      }
+    ]
+  },
+  "rice___Bacterial_blight": {
+    "cause": "Bacteria (Xanthomonas oryzae pv. oryzae)",
+    "symptoms": [
+      "Leaves wilt and turn yellow; seedlings may wilt completely (called kresek).",
+      "On seedlings, infected leaves turn greyish green and roll up.",
+      "As the disease progresses, leaves turn yellow to straw-coloured and wilt, and whole seedlings dry up and die."
+    ],
+    "treatment": [
+      "Use balanced amounts of plant nutrients, especially nitrogen.",
+      "Make sure fields and nurseries drain well.",
+      "Keep fields clean: remove weed hosts and plough under rice stubble, straw, ratoons and volunteer seedlings, which can host the bacteria."
+    ],
+    "prevention": [
+      "Plant resistant varieties.",
+      "Let fallow fields dry out to suppress the bacteria in the soil and plant residues.",
+      "Keep fields free of weeds and of stubble from infected plants."
+    ],
+    "severity": "Yield loss can be as much as 70% when susceptible varieties are grown in conditions that favour the disease.",
+    "sources": [
+      {
+        "title": "Bacterial blight, IRRI Rice Knowledge Bank",
+        "url": "http://www.knowledgebank.irri.org/decision-tools/rice-doctor/rice-doctor-fact-sheets/item/bacterial-blight"
+      }
+    ]
+  },
+  "rice___Tungro": {
+    "cause": "Two viruses, spread by leafhoppers",
+    "symptoms": [
+      "Leaves turn yellow or orange-yellow.",
+      "Plants are stunted and have fewer tillers.",
+      "Flowering and maturity are delayed.",
+      "Grains are sterile or only partly filled, sometimes with dark brown blotches."
+    ],
+    "treatment": [
+      "Infected plants cannot be cured.",
+      "Remove infected plants to limit the spread of the virus.",
+      "Insecticides are often ineffective, because leafhoppers move between fields."
+    ],
+    "prevention": [
+      "Grow varieties resistant to tungro or to leafhoppers.",
+      "Plant at the same time as the surrounding farms.",
+      "Time planting for when leafhopper numbers are low.",
+      "Plough infected stubble under straight after harvest.",
+      "Do not use seedlings from nurseries in areas where tungro is common."
+    ],
+    "severity": "One of the most destructive rice diseases in South and Southeast Asia; in severe cases yield loss can reach 100%.",
+    "sources": [
+      {
+        "title": "Tungro, IRRI Rice Knowledge Bank",
+        "url": "http://www.knowledgebank.irri.org/training/fact-sheets/pest-management/diseases/item/tungro"
+      }
+    ]
+  }
+}

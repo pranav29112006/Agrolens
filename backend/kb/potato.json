@@ -1,0 +1,60 @@
+{
+  "potato___Early_blight": {
+    "cause": "Fungus (Alternaria solani)",
+    "symptoms": [
+      "Small dark spots form first on the older leaves near the ground.",
+      "Leaf spots are round and brown and can grow up to half an inch across.",
+      "Badly infected leaves turn brown and may fall off or cling dead to the stem."
+    ],
+    "treatment": [
+      "Wash and sanitise tools after touching infected plants.",
+      "If a fungicide is needed, apply it when the weather favours the disease and alternate between chemical families so the fungus does not become insensitive."
+    ],
+    "prevention": [
+      "Use pathogen-free seed.",
+      "Space plants so air can move through them and keep the foliage dry.",
+      "Remove or bury infected plants at the end of the season.",
+      "Rotate crops: do not plant potato or tomato in the same place for at least two years."
+    ],
+    "severity": "Can severely limit yield on susceptible varieties.",
+    "sources": [
+      {
+        "title": "Early blight in tomato and potato, University of Minnesota Extension",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/early-blight-in-tomato-and-potato"
+      }
+    ]
+  },
+  "potato___Late_blight": {
+    "cause": "Water mold (Phytophthora infestans)",
+    "symptoms": [
+      "Large dark brown blotches with a green-grey edge appear on leaves and are not held in by the leaf veins.",
+      "The infection moves through leaflets and leaf stalks, leaving large sections of dry brown foliage.",
+      "In cool wet weather whole fields turn brown and wilted, as if hit by frost.",
+      "Infected tubers become discoloured (brown, red or purple) and soft."
+    ],
+    "treatment": [
+      "If only a few plants are infected, remove them, disc them under or kill them so the disease does not spread through the field.",
+      "Fungicides must be ones that work on water molds, and they work only when applied before infection.",
+      "Rotate or tank-mix fungicide groups to avoid resistance."
+    ],
+    "prevention": [
+      "Plant certified seed potatoes.",
+      "Control volunteer potato plants, which can grow from infected tubers.",
+      "Manage cull piles so they do not become a source of infection.",
+      "Plant where no potato, tomato, pepper or eggplant has grown for the past 3 to 4 years.",
+      "Remove or bury plants at the end of the season."
+    ],
+    "severity": "Can cause total crop failure if left untreated. It favours cool (60 to 70 °F), damp weather; long hot dry spells can stop its spread.",
+    "sources": [
+      {
+        "title": "Late blight of tomato and potato, University of Minnesota Extension",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/late-blight"
+      }
+    ],
+    "weather": {
+      "min_temp_c": 15.5,
+      "max_temp_c": 21.0,
+      "needs_moisture": true
+    }
+  }
+}

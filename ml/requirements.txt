@@ -1,0 +1,14 @@
+# Install PyTorch first, from the CUDA 13.0 index (GPU build for Windows):
+#   .venv\Scripts\python -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
+# then the rest from PyPI:
+#   .venv\Scripts\python -m pip install -r requirements.txt
+scikit-learn>=1.5
+matplotlib>=3.9
+tqdm>=4.66
+pillow>=10.4
+numpy>=1.26
+
+# Export to ONNX and check the export against PyTorch
+onnx>=1.17
+onnxscript>=0.2
+onnxruntime>=1.19

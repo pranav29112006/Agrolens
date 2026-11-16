@@ -1,0 +1,6 @@
+# Local helper binaries (cloudflared for the backend tunnel)
+.tools/
+.claude/
+.env
+node_modules/
+.venv/

@@ -1,0 +1,10 @@
+{
+  "labels": [
+    "Background_without_leaves",
+    "potato___Early_blight",
+    "potato___healthy",
+    "tomato___Late_blight",
+    "tomato___healthy"
+  ],
+  "input_size": 224
+}

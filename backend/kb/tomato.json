@@ -1,0 +1,224 @@
+{
+  "tomato___Early_blight": {
+    "cause": "Fungus (Alternaria tomatophila and Alternaria solani)",
+    "symptoms": [
+      "Small dark spots form first on the older leaves near the ground.",
+      "Leaf spots are round and brown and can grow up to half an inch across.",
+      "Badly infected leaves turn brown and may fall off or cling dead to the stem.",
+      "Fruit spots are leathery and black, usually near the stem."
+    ],
+    "treatment": [
+      "Prune off infected leaves if the disease is caught early, removing no more than a third of the plant's leaves, and dispose of them far from the tomato area.",
+      "Wash and sanitise tools after touching infected plants.",
+      "If a fungicide is needed, apply it when the weather favours the disease and alternate between chemical families so the fungus does not become insensitive."
+    ],
+    "prevention": [
+      "Grow early blight resistant varieties and use disease-free seed.",
+      "Mulch the soil and water with drip irrigation to keep the leaves dry.",
+      "Stake, trellis and space plants so air can move through them, and prune the bottom leaves to avoid soil splash.",
+      "Remove or bury infected plants at the end of the season.",
+      "Rotate crops: do not plant tomatoes in the same place for at least two years."
+    ],
+    "severity": "Can severely limit yield on susceptible varieties.",
+    "sources": [
+      {
+        "title": "Early blight in tomato and potato, University of Minnesota Extension",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/early-blight-in-tomato-and-potato"
+      }
+    ]
+  },
+  "tomato___Late_blight": {
+    "cause": "Water mold (Phytophthora infestans)",
+    "symptoms": [
+      "Large dark brown blotches with a green-grey edge appear on leaves and are not held in by the leaf veins.",
+      "The infection moves through leaflets and leaf stalks, leaving large sections of dry brown foliage.",
+      "On fruit, firm dark brown circular spots cover large areas and may turn mushy.",
+      "In cool wet weather whole fields turn brown and wilted, as if hit by frost."
+    ],
+    "treatment": [
+      "Check plants regularly and remove diseased leaves.",
+      "If only a few plants are infected, remove and destroy them so the disease does not spread through the field.",
+      "Fungicides must be ones that work on water molds, and they work only when applied before infection.",
+      "Rotate or tank-mix fungicide groups to avoid resistance."
+    ],
+    "prevention": [
+      "Plant where no tomato, potato, pepper or eggplant has grown for the past 3 to 4 years.",
+      "Keep leaves dry: use drip irrigation or a soaker hose and water in the morning.",
+      "Inspect transplants for late blight before planting.",
+      "Control volunteer potato plants, which can carry the disease from infected tubers.",
+      "Remove or bury plants at the end of the season."
+    ],
+    "severity": "Can cause total crop failure if left untreated. It favours cool (60 to 70 °F), damp weather; long hot dry spells can stop its spread.",
+    "sources": [
+      {
+        "title": "Late blight of tomato and potato, University of Minnesota Extension",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/late-blight"
+      }
+    ],
+    "weather": {
+      "min_temp_c": 15.5,
+      "max_temp_c": 21.0,
+      "needs_moisture": true
+    }
+  },
+  "tomato___Bacterial_spot": {
+    "cause": "Bacteria (bacterial spot of tomato)",
+    "symptoms": [
+      "Water-soaked areas develop on older leaves.",
+      "Leaf spots turn from yellow or light green to dark brown or black.",
+      "Seedlings can lose most of their leaves.",
+      "Spots on young fruit enlarge and turn scabby."
+    ],
+    "treatment": [
+      "Apply a copper-containing bactericide at the first sign of disease and repeat every 10 to 14 days in warm, moist conditions.",
+      "Combining copper with mancozeb improves control.",
+      "Copper only protects healthy tissue, so it must be on the plant before infection occurs."
+    ],
+    "prevention": [
+      "Use pathogen-free seed and disease-free transplants.",
+      "Avoid sprinkler irrigation.",
+      "Do not keep cull piles near the crop.",
+      "Rotate with crops that are not hosts."
+    ],
+    "severity": null,
+    "sources": [
+      {
+        "title": "Bacterial Spot, Tomato Pest Management Guidelines, UC Statewide IPM Program",
+        "url": "https://ipm.ucanr.edu/agriculture/tomato/bacterial-spot/"
+      }
+    ]
+  },
+  "tomato___Leaf_mold": {
+    "cause": "Fungus (Passalora fulva)",
+    "symptoms": [
+      "Separate yellow spots form on the upper side of leaves.",
+      "Olive-green to brown velvety mold grows on the underside of the leaf below the spots.",
+      "Infected blossoms turn black and fall off.",
+      "Fruit infection starts as a smooth black irregular area at the stem end."
+    ],
+    "treatment": [
+      "Fungicides work only if applied before infection; follow the label.",
+      "Alternate between chemical families to avoid resistance.",
+      "Copper-based products can be used in organic production."
+    ],
+    "prevention": [
+      "Use drip irrigation and avoid wetting the leaves.",
+      "Space, prune and stake plants to increase air movement.",
+      "Remove crop residue after the season.",
+      "Clean greenhouse or tunnel walls at the end of the season."
+    ],
+    "severity": "Usually a problem only in greenhouse and high-tunnel tomatoes, where humidity is higher.",
+    "sources": [
+      {
+        "title": "Tomato leaf mold, University of Minnesota Extension",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-leaf-mold"
+      }
+    ]
+  },
+  "tomato___Septoria_leaf_spot": {
+    "cause": "Fungus (Septoria lycopersici)",
+    "symptoms": [
+      "Small circular tan to grey spots, under an eighth of an inch, develop on the lower leaves and stems.",
+      "Spots have a dark brown edge with a yellow halo around them.",
+      "Spots merge as the disease progresses and whole leaves become blighted."
+    ],
+    "treatment": [
+      "Remove affected leaves to slow the spread, but do not strip too many leaves.",
+      "Fungicides such as chlorothalonil, copper or mancozeb are protective and should be applied before symptoms appear."
+    ],
+    "prevention": [
+      "Rotate away from tomato for 2 or more years.",
+      "Control weeds such as horsenettle.",
+      "Remove crop debris from the planting area.",
+      "Stake plants to improve air circulation and reduce moisture on the leaves.",
+      "Mulch to keep leaves from touching the soil."
+    ],
+    "severity": null,
+    "sources": [
+      {
+        "title": "Septoria Leaf Spot of Tomato, NC State Extension Publications",
+        "url": "https://content.ces.ncsu.edu/septoria-leaf-spot-of-tomato"
+      }
+    ]
+  },
+  "tomato___Mosaic_virus": {
+    "cause": "Virus (tomato mosaic virus or tobacco mosaic virus), spread on hands and tools",
+    "symptoms": [
+      "Leaves are mottled light and dark green.",
+      "Leaves may be curled, malformed or smaller than normal.",
+      "Plants infected early may be yellow and stunted overall."
+    ],
+    "treatment": [
+      "There is no cure for plant viruses; act to stop the spread.",
+      "Pull up suspected plants completely, roots included, and burn them. Do not compost them.",
+      "Disinfect tools and wash hands after working with diseased plants; soaking tools for 1 minute in 1 part germicidal bleach to 9 parts water is highly effective.",
+      "Work with healthy plants before diseased ones, and keep separate tools for the diseased area."
+    ],
+    "prevention": [
+      "Grow resistant varieties where they are available.",
+      "Do not smoke or chew tobacco near the plants, and wash hands after using tobacco: tobacco products can carry these viruses.",
+      "Clean hands and tools regularly.",
+      "At the end of the season, burn or bury all plants from the diseased area and disinfect stakes, ties and wires."
+    ],
+    "severity": null,
+    "sources": [
+      {
+        "title": "Tomato viruses, University of Minnesota Extension",
+        "url": "https://extension.umn.edu/agriculture/specialty-crops/vegetable-farming/disease-management/tomato-viruses"
+      }
+    ]
+  },
+  "tomato___Yellow_leaf_curl_virus": {
+    "cause": "Virus (tomato yellow leaf curl virus), spread by Bemisia whiteflies and on infected plants",
+    "symptoms": [
+      "Plants are stunted and grow upright with a bushy look because the stem sections are short.",
+      "Leaves are small, curl upward, and are crumpled and yellowed.",
+      "Flowers commonly fall off and fruit production drops sharply."
+    ],
+    "treatment": [
+      "Pull out and destroy diseased plants while only a few are infected.",
+      "Manage whiteflies during the growing season.",
+      "Remove old crop residue and volunteer plants after the season."
+    ],
+    "prevention": [
+      "Plant resistant varieties.",
+      "Use virus-free and whitefly-free transplants, and do not bring transplants from infected areas.",
+      "Do not plant new fields next to older infected ones.",
+      "Cover plants with fine mesh to keep whiteflies off.",
+      "Keep weeds down around the field."
+    ],
+    "severity": "Losses of 100% are possible in heavily infected fields.",
+    "sources": [
+      {
+        "title": "Tomato Yellow Leaf Curl, Tomato Pest Management Guidelines, UC Statewide IPM Program",
+        "url": "https://ipm.ucanr.edu/agriculture/tomato/tomato-yellow-leaf-curl/"
+      }
+    ]
+  },
+  "tomato___Spider_mites": {
+    "cause": "Pest (twospotted spider mite), which feeds on plant sap",
+    "symptoms": [
+      "Leaves show tiny white or yellow spots and look stippled or mottled.",
+      "Heavy feeding makes plants look bronzed or bleached, and leaves may drop.",
+      "Fine webbing is a sign of infestation."
+    ],
+    "treatment": [
+      "Knock mites and webbing off with a strong spray of water.",
+      "Insecticidal soap or horticultural oil (such as neem oil) works only on direct contact and may need repeating.",
+      "Avoid long-lasting insecticides such as bifenthrin and permethrin: they kill the natural enemies that keep mites in check."
+    ],
+    "prevention": [
+      "Check plants every 3 to 5 days, especially in dry weather.",
+      "Water plants adequately and avoid drought stress.",
+      "Mulch to conserve soil moisture.",
+      "Do not fertilise during drought."
+    ],
+    "severity": null,
+    "sources": [
+      {
+        "title": "Twospotted spider mites in home gardens, University of Minnesota Extension",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/yard-and-garden-insects/spider-mites"
+      }
+    ]
+  }
+}

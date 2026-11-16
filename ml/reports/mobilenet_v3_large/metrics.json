@@ -1,0 +1,144 @@
+{
+  "run": "mobilenet_v3_large",
+  "arch": "mobilenet_v3_large",
+  "data": "plantvillage",
+  "test_images": 8319,
+  "classes": 39,
+  "temperature": 0.38339232685007063,
+  "confidence_threshold": 0.6,
+  "crop_first": {
+    "accuracy": 0.9984373121769443,
+    "macro_f1": 0.9978947258240649,
+    "weighted_f1": 0.9984408555523668,
+    "expected_calibration_error": 0.0015760648186830416,
+    "share_sent_to_expert": 0.00024041351123937904,
+    "accuracy_when_confident": 0.9984369363953348,
+    "accuracy_when_unsure": 1.0
+  },
+  "open": {
+    "accuracy": 0.9984373121769443,
+    "macro_f1": 0.9978947258240649,
+    "weighted_f1": 0.9984408555523668,
+    "expected_calibration_error": 0.0009502357794829628,
+    "share_sent_to_expert": 0.00024041351123937904,
+    "accuracy_when_confident": 0.9984369363953348,
+    "accuracy_when_unsure": 1.0
+  },
+  "by_source": null,
+  "by_crop": {
+    "apple": {
+      "images": 476,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "blueberry": {
+      "images": 226,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "capsicum_chilli": {
+      "images": 370,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "cherry": {
+      "images": 286,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "citrus": {
+      "images": 826,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "grape": {
+      "images": 611,
+      "accuracy": 0.9983633387888707,
+      "macro_f1": 0.9986933650093331
+    },
+    "maize": {
+      "images": 578,
+      "accuracy": 0.9913494809688581,
+      "macro_f1": 0.9876692722668722
+    },
+    "no_leaf": {
+      "images": 172,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "peach": {
+      "images": 398,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "potato": {
+      "images": 323,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "pumpkin": {
+      "images": 276,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "raspberry": {
+      "images": 55,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "soybean": {
+      "images": 763,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "strawberry": {
+      "images": 236,
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    },
+    "tomato": {
+      "images": 2723,
+      "accuracy": 0.9974293059125964,
+      "macro_f1": 0.9972443758033709
+    }
+  },
+  "top_confusions": [
+    {
+      "true": "Corn_(maize)___Northern_Leaf_Blight",
+      "predicted": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "count": 3
+    },
+    {
+      "true": "Tomato___Target_Spot",
+      "predicted": "Tomato___Spider_mites Two-spotted_spider_mite",
+      "count": 3
+    },
+    {
+      "true": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+      "predicted": "Corn_(maize)___Northern_Leaf_Blight",
+      "count": 2
+    },
+    {
+      "true": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "predicted": "Tomato___Spider_mites Two-spotted_spider_mite",
+      "count": 2
+    },
+    {
+      "true": "Grape___Esca_(Black_Measles)",
+      "predicted": "Grape___Black_rot",
+      "count": 1
+    },
+    {
+      "true": "Tomato___Late_blight",
+      "predicted": "Tomato___healthy",
+      "count": 1
+    },
+    {
+      "true": "Tomato___Leaf_Mold",
+      "predicted": "Tomato___Spider_mites Two-spotted_spider_mite",
+      "count": 1
+    }
+  ],
+  "accuracy": 0.9984373121769443,
+  "macro_f1": 0.9978947258240649
+}

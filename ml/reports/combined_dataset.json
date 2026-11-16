@@ -1,0 +1,1187 @@
+{
+  "classes": 189,
+  "crops": [
+    "apple",
+    "banana",
+    "bean",
+    "bitter_gourd",
+    "black_green_gram",
+    "brinjal",
+    "cabbage",
+    "capsicum_chilli",
+    "cassava",
+    "cauliflower",
+    "cherry",
+    "citrus",
+    "coconut",
+    "cotton",
+    "cucumber",
+    "grape",
+    "guava",
+    "litchi",
+    "maize",
+    "mango",
+    "marigold",
+    "okra",
+    "papaya",
+    "peach",
+    "peanut",
+    "pigeon_pea_red_gram",
+    "pineapple",
+    "potato",
+    "pumpkin",
+    "rice",
+    "rose",
+    "sesame",
+    "sorghum",
+    "soybean",
+    "strawberry",
+    "sugarcane",
+    "sunflower",
+    "tea",
+    "tomato",
+    "turmeric",
+    "wheat",
+    "zucchini"
+  ],
+  "images": {
+    "train": 82028,
+    "val": 17603,
+    "test": 17477
+  },
+  "duplicates_removed": 12987,
+  "dropped_conflicting_duplicates": 944,
+  "unreadable": {},
+  "dropped_small_classes": {
+    "cabbage___Black_rot": 26,
+    "cabbage___Downy_mildew": 27,
+    "papaya___Bacterial_blight": 11,
+    "papaya___Yellow_necrotic_spots": 29,
+    "zucchini___Angular_leaf_spot": 12,
+    "zucchini___Anthracnose": 29,
+    "zucchini___Insect_damage": 15,
+    "zucchini___healthy": 5
+  },
+  "thin_classes": {
+    "cassava___Bacterial_blight": 49,
+    "papaya___healthy": 39,
+    "zucchini___Iron_chlorosis": 41,
+    "zucchini___Xanthomonas_leaf_spot": 35
+  },
+  "crops_without_healthy": [
+    "coconut",
+    "litchi",
+    "rice",
+    "sorghum",
+    "zucchini"
+  ],
+  "per_source": {
+    "banana_lsd": {
+      "train": 624,
+      "val": 136,
+      "test": 136
+    },
+    "bean_sirajganj": {
+      "train": 622,
+      "val": 136,
+      "test": 135
+    },
+    "black_gram": {
+      "train": 2813,
+      "val": 605,
+      "test": 604
+    },
+    "brinjal_slif": {
+      "train": 1002,
+      "val": 218,
+      "test": 217
+    },
+    "cabbage": {
+      "train": 88,
+      "val": 20,
+      "test": 20
+    },
+    "cassava_tn": {
+      "train": 157,
+      "val": 36,
+      "test": 35
+    },
+    "cauliflower_bd": {
+      "train": 1850,
+      "val": 397,
+      "test": 397
+    },
+    "chilli_bd": {
+      "train": 1044,
+      "val": 225,
+      "test": 224
+    },
+    "coconut_tree": {
+      "train": 3601,
+      "val": 774,
+      "test": 774
+    },
+    "cotton_sarcld": {
+      "train": 1483,
+      "val": 321,
+      "test": 321
+    },
+    "cucumber_bd": {
+      "train": 893,
+      "val": 192,
+      "test": 192
+    },
+    "groundnut_raw": {
+      "train": 2134,
+      "val": 461,
+      "test": 461
+    },
+    "guava_leaf_fruit": {
+      "train": 2444,
+      "val": 525,
+      "test": 525
+    },
+    "lemon_bd": {
+      "train": 2481,
+      "val": 536,
+      "test": 536
+    },
+    "litchi_jackfruit": {
+      "train": 2172,
+      "val": 468,
+      "test": 468
+    },
+    "mango_bd": {
+      "train": 1487,
+      "val": 323,
+      "test": 322
+    },
+    "papaya_zucchini_gourd": {
+      "train": 482,
+      "val": 107,
+      "test": 106
+    },
+    "pigeonpea": {
+      "train": 352,
+      "val": 78,
+      "test": 77
+    },
+    "pineapple": {
+      "train": 1455,
+      "val": 313,
+      "test": 313
+    },
+    "plantdoc": {
+      "train": 1710,
+      "val": 316,
+      "test": 208
+    },
+    "plantvillage": {
+      "train": 37501,
+      "val": 8036,
+      "test": 8038
+    },
+    "rice_sethy": {
+      "train": 306,
+      "val": 68,
+      "test": 66
+    },
+    "rose_marigold": {
+      "train": 2259,
+      "val": 489,
+      "test": 487
+    },
+    "sesame_pabna": {
+      "train": 2390,
+      "val": 515,
+      "test": 513
+    },
+    "sorghum": {
+      "train": 4310,
+      "val": 927,
+      "test": 926
+    },
+    "soybean_field": {
+      "train": 324,
+      "val": 72,
+      "test": 72
+    },
+    "sugarcane_maharashtra": {
+      "train": 1603,
+      "val": 346,
+      "test": 345
+    },
+    "sunflower_bd": {
+      "train": 401,
+      "val": 88,
+      "test": 87
+    },
+    "tea_reallife": {
+      "train": 636,
+      "val": 139,
+      "test": 139
+    },
+    "turmeric": {
+      "train": 672,
+      "val": 147,
+      "test": 145
+    },
+    "veg4_rajshahi": {
+      "train": 2450,
+      "val": 527,
+      "test": 527
+    },
+    "wheat_ethiopia": {
+      "train": 282,
+      "val": 62,
+      "test": 61
+    }
+  },
+  "per_class": {
+    "Background_without_leaves": {
+      "train": 800,
+      "val": 171,
+      "test": 172
+    },
+    "apple___Apple_scab": {
+      "train": 510,
+      "val": 107,
+      "test": 105
+    },
+    "apple___Black_rot": {
+      "train": 435,
+      "val": 93,
+      "test": 93
+    },
+    "apple___Cedar_apple_rust": {
+      "train": 257,
+      "val": 53,
+      "test": 52
+    },
+    "apple___healthy": {
+      "train": 1221,
+      "val": 260,
+      "test": 255
+    },
+    "banana___Cordana_leaf_spot": {
+      "train": 112,
+      "val": 25,
+      "test": 25
+    },
+    "banana___Pestalotiopsis_leaf_spot": {
+      "train": 120,
+      "val": 26,
+      "test": 26
+    },
+    "banana___Sigatoka": {
+      "train": 330,
+      "val": 71,
+      "test": 71
+    },
+    "banana___healthy": {
+      "train": 62,
+      "val": 14,
+      "test": 14
+    },
+    "bean___Leaf_spot": {
+      "train": 145,
+      "val": 32,
+      "test": 31
+    },
+    "bean___Pest_damage": {
+      "train": 143,
+      "val": 31,
+      "test": 31
+    },
+    "bean___Yellow_mosaic": {
+      "train": 140,
+      "val": 31,
+      "test": 31
+    },
+    "bean___healthy": {
+      "train": 194,
+      "val": 42,
+      "test": 42
+    },
+    "bitter_gourd___Anthracnose": {
+      "train": 285,
+      "val": 62,
+      "test": 62
+    },
+    "bitter_gourd___Downy_mildew": {
+      "train": 330,
+      "val": 71,
+      "test": 71
+    },
+    "bitter_gourd___healthy": {
+      "train": 351,
+      "val": 75,
+      "test": 75
+    },
+    "black_green_gram___Cercospora_leaf_spot": {
+      "train": 417,
+      "val": 90,
+      "test": 90
+    },
+    "black_green_gram___Insect_damage": {
+      "train": 285,
+      "val": 62,
+      "test": 61
+    },
+    "black_green_gram___Leaf_crinkle_virus": {
+      "train": 563,
+      "val": 121,
+      "test": 121
+    },
+    "black_green_gram___Yellow_mosaic_virus": {
+      "train": 1175,
+      "val": 252,
+      "test": 252
+    },
+    "black_green_gram___healthy": {
+      "train": 373,
+      "val": 80,
+      "test": 80
+    },
+    "brinjal___Bacterial_blight": {
+      "train": 119,
+      "val": 26,
+      "test": 26
+    },
+    "brinjal___Bacterial_leaf_spot": {
+      "train": 88,
+      "val": 19,
+      "test": 19
+    },
+    "brinjal___Bacterial_wilt": {
+      "train": 80,
+      "val": 18,
+      "test": 17
+    },
+    "brinjal___Cercospora_leaf_spot": {
+      "train": 263,
+      "val": 57,
+      "test": 57
+    },
+    "brinjal___Little_leaf": {
+      "train": 74,
+      "val": 16,
+      "test": 16
+    },
+    "brinjal___Mosaic_virus": {
+      "train": 186,
+      "val": 40,
+      "test": 40
+    },
+    "brinjal___Powdery_mildew": {
+      "train": 103,
+      "val": 22,
+      "test": 22
+    },
+    "brinjal___healthy": {
+      "train": 89,
+      "val": 20,
+      "test": 20
+    },
+    "cabbage___Alternaria_leaf_spot": {
+      "train": 45,
+      "val": 10,
+      "test": 10
+    },
+    "cabbage___healthy": {
+      "train": 43,
+      "val": 10,
+      "test": 10
+    },
+    "capsicum_chilli___Anthracnose": {
+      "train": 229,
+      "val": 49,
+      "test": 49
+    },
+    "capsicum_chilli___Bacterial_spot": {
+      "train": 747,
+      "val": 159,
+      "test": 158
+    },
+    "capsicum_chilli___Cercospora_leaf_spot": {
+      "train": 256,
+      "val": 55,
+      "test": 55
+    },
+    "capsicum_chilli___Leaf_curl": {
+      "train": 257,
+      "val": 56,
+      "test": 55
+    },
+    "capsicum_chilli___healthy": {
+      "train": 1382,
+      "val": 295,
+      "test": 294
+    },
+    "cassava___Bacterial_blight": {
+      "train": 33,
+      "val": 8,
+      "test": 8
+    },
+    "cassava___Mosaic": {
+      "train": 61,
+      "val": 14,
+      "test": 13
+    },
+    "cassava___healthy": {
+      "train": 63,
+      "val": 14,
+      "test": 14
+    },
+    "cauliflower___Black_rot": {
+      "train": 759,
+      "val": 163,
+      "test": 163
+    },
+    "cauliflower___Insect_damage": {
+      "train": 444,
+      "val": 95,
+      "test": 95
+    },
+    "cauliflower___healthy": {
+      "train": 647,
+      "val": 139,
+      "test": 139
+    },
+    "cherry___Powdery_mildew": {
+      "train": 736,
+      "val": 158,
+      "test": 158
+    },
+    "cherry___healthy": {
+      "train": 637,
+      "val": 135,
+      "test": 138
+    },
+    "citrus___Anthracnose": {
+      "train": 328,
+      "val": 71,
+      "test": 71
+    },
+    "citrus___Citrus_canker": {
+      "train": 375,
+      "val": 81,
+      "test": 81
+    },
+    "citrus___Citrus_greening": {
+      "train": 4236,
+      "val": 908,
+      "test": 908
+    },
+    "citrus___Leaf_curl": {
+      "train": 431,
+      "val": 93,
+      "test": 93
+    },
+    "citrus___Leafminer": {
+      "train": 425,
+      "val": 92,
+      "test": 92
+    },
+    "citrus___Swallowtail_caterpillar_damage": {
+      "train": 440,
+      "val": 95,
+      "test": 95
+    },
+    "citrus___healthy": {
+      "train": 101,
+      "val": 22,
+      "test": 22
+    },
+    "coconut___Bud_root_dropping": {
+      "train": 239,
+      "val": 52,
+      "test": 52
+    },
+    "coconut___Bud_rot": {
+      "train": 318,
+      "val": 69,
+      "test": 69
+    },
+    "coconut___Grey_leaf_spot": {
+      "train": 1405,
+      "val": 301,
+      "test": 301
+    },
+    "coconut___Leaf_rot": {
+      "train": 1012,
+      "val": 217,
+      "test": 217
+    },
+    "coconut___Stem_bleeding": {
+      "train": 627,
+      "val": 135,
+      "test": 135
+    },
+    "cotton___Bacterial_blight": {
+      "train": 174,
+      "val": 38,
+      "test": 38
+    },
+    "cotton___Herbicide_damage": {
+      "train": 196,
+      "val": 42,
+      "test": 42
+    },
+    "cotton___Leaf_curl_virus": {
+      "train": 298,
+      "val": 64,
+      "test": 64
+    },
+    "cotton___Leaf_reddening": {
+      "train": 402,
+      "val": 87,
+      "test": 87
+    },
+    "cotton___Leaf_variegation": {
+      "train": 80,
+      "val": 18,
+      "test": 18
+    },
+    "cotton___Leafhopper_jassids": {
+      "train": 157,
+      "val": 34,
+      "test": 34
+    },
+    "cotton___healthy": {
+      "train": 176,
+      "val": 38,
+      "test": 38
+    },
+    "cucumber___Anthracnose": {
+      "train": 112,
+      "val": 24,
+      "test": 24
+    },
+    "cucumber___Bacterial_wilt": {
+      "train": 111,
+      "val": 24,
+      "test": 24
+    },
+    "cucumber___Belly_rot": {
+      "train": 112,
+      "val": 24,
+      "test": 24
+    },
+    "cucumber___Downy_mildew": {
+      "train": 111,
+      "val": 24,
+      "test": 24
+    },
+    "cucumber___Gummy_stem_blight": {
+      "train": 112,
+      "val": 24,
+      "test": 24
+    },
+    "cucumber___Pythium_fruit_rot": {
+      "train": 112,
+      "val": 24,
+      "test": 24
+    },
+    "cucumber___healthy": {
+      "train": 223,
+      "val": 48,
+      "test": 48
+    },
+    "grape___Black_rot": {
+      "train": 872,
+      "val": 186,
+      "test": 185
+    },
+    "grape___Esca": {
+      "train": 968,
+      "val": 207,
+      "test": 208
+    },
+    "grape___Isariopsis_leaf_spot": {
+      "train": 753,
+      "val": 161,
+      "test": 162
+    },
+    "grape___healthy": {
+      "train": 344,
+      "val": 72,
+      "test": 76
+    },
+    "guava___Powdery_mildew": {
+      "train": 350,
+      "val": 75,
+      "test": 75
+    },
+    "guava___Red_rust": {
+      "train": 350,
+      "val": 75,
+      "test": 75
+    },
+    "guava___Scab": {
+      "train": 350,
+      "val": 75,
+      "test": 75
+    },
+    "guava___Sooty_mould": {
+      "train": 348,
+      "val": 75,
+      "test": 75
+    },
+    "guava___Whitefly": {
+      "train": 348,
+      "val": 75,
+      "test": 75
+    },
+    "guava___healthy": {
+      "train": 698,
+      "val": 150,
+      "test": 150
+    },
+    "litchi___Algal_spot": {
+      "train": 415,
+      "val": 89,
+      "test": 89
+    },
+    "litchi___Anthracnose": {
+      "train": 577,
+      "val": 124,
+      "test": 124
+    },
+    "litchi___Dry_leaf": {
+      "train": 234,
+      "val": 50,
+      "test": 50
+    },
+    "litchi___Entomosporium_leaf_spot": {
+      "train": 234,
+      "val": 51,
+      "test": 51
+    },
+    "litchi___Leaf_gall_midge": {
+      "train": 384,
+      "val": 83,
+      "test": 83
+    },
+    "litchi___Leaf_mites": {
+      "train": 328,
+      "val": 71,
+      "test": 71
+    },
+    "maize___Common_rust": {
+      "train": 923,
+      "val": 195,
+      "test": 189
+    },
+    "maize___Gray_leaf_spot": {
+      "train": 410,
+      "val": 86,
+      "test": 80
+    },
+    "maize___Northern_leaf_blight": {
+      "train": 834,
+      "val": 174,
+      "test": 156
+    },
+    "maize___healthy": {
+      "train": 813,
+      "val": 174,
+      "test": 175
+    },
+    "mango___Anthracnose": {
+      "train": 220,
+      "val": 47,
+      "test": 47
+    },
+    "mango___Bacterial_canker": {
+      "train": 209,
+      "val": 45,
+      "test": 45
+    },
+    "mango___Cutting_weevil": {
+      "train": 143,
+      "val": 31,
+      "test": 31
+    },
+    "mango___Die_back": {
+      "train": 220,
+      "val": 48,
+      "test": 48
+    },
+    "mango___Gall_midge": {
+      "train": 216,
+      "val": 47,
+      "test": 47
+    },
+    "mango___Powdery_mildew": {
+      "train": 136,
+      "val": 30,
+      "test": 29
+    },
+    "mango___Sooty_mould": {
+      "train": 169,
+      "val": 37,
+      "test": 37
+    },
+    "mango___healthy": {
+      "train": 174,
+      "val": 38,
+      "test": 38
+    },
+    "marigold___Alternaria_leaf_blight": {
+      "train": 211,
+      "val": 46,
+      "test": 46
+    },
+    "marigold___Pest_damage": {
+      "train": 45,
+      "val": 10,
+      "test": 10
+    },
+    "marigold___healthy": {
+      "train": 178,
+      "val": 39,
+      "test": 38
+    },
+    "okra___Cercospora_leaf_spot": {
+      "train": 378,
+      "val": 81,
+      "test": 81
+    },
+    "okra___healthy": {
+      "train": 378,
+      "val": 81,
+      "test": 81
+    },
+    "papaya___Curled_yellow_spot": {
+      "train": 57,
+      "val": 13,
+      "test": 13
+    },
+    "papaya___Insect_damage": {
+      "train": 38,
+      "val": 8,
+      "test": 8
+    },
+    "papaya___Other_disease_symptoms": {
+      "train": 132,
+      "val": 29,
+      "test": 29
+    },
+    "papaya___healthy": {
+      "train": 27,
+      "val": 6,
+      "test": 6
+    },
+    "peach___Bacterial_spot": {
+      "train": 1608,
+      "val": 345,
+      "test": 344
+    },
+    "peach___healthy": {
+      "train": 338,
+      "val": 70,
+      "test": 63
+    },
+    "peanut___Early_leaf_spot": {
+      "train": 617,
+      "val": 133,
+      "test": 133
+    },
+    "peanut___Late_leaf_spot": {
+      "train": 481,
+      "val": 104,
+      "test": 104
+    },
+    "peanut___Nutrient_deficiency": {
+      "train": 229,
+      "val": 50,
+      "test": 50
+    },
+    "peanut___Rust": {
+      "train": 158,
+      "val": 34,
+      "test": 34
+    },
+    "peanut___healthy": {
+      "train": 649,
+      "val": 140,
+      "test": 140
+    },
+    "pigeon_pea_red_gram___Cercospora_leaf_spot": {
+      "train": 126,
+      "val": 28,
+      "test": 28
+    },
+    "pigeon_pea_red_gram___Leaf_webber": {
+      "train": 70,
+      "val": 16,
+      "test": 15
+    },
+    "pigeon_pea_red_gram___Sterility_mosaic": {
+      "train": 88,
+      "val": 19,
+      "test": 19
+    },
+    "pigeon_pea_red_gram___healthy": {
+      "train": 68,
+      "val": 15,
+      "test": 15
+    },
+    "pineapple___Fusarium_wilt": {
+      "train": 393,
+      "val": 84,
+      "test": 84
+    },
+    "pineapple___Leaf_blight": {
+      "train": 351,
+      "val": 76,
+      "test": 76
+    },
+    "pineapple___Mealybug_wilt": {
+      "train": 361,
+      "val": 78,
+      "test": 78
+    },
+    "pineapple___healthy": {
+      "train": 350,
+      "val": 75,
+      "test": 75
+    },
+    "potato___Early_blight": {
+      "train": 780,
+      "val": 164,
+      "test": 156
+    },
+    "potato___Late_blight": {
+      "train": 774,
+      "val": 164,
+      "test": 155
+    },
+    "potato___healthy": {
+      "train": 106,
+      "val": 23,
+      "test": 23
+    },
+    "pumpkin___Downy_mildew": {
+      "train": 355,
+      "val": 77,
+      "test": 77
+    },
+    "pumpkin___Powdery_mildew": {
+      "train": 1387,
+      "val": 294,
+      "test": 282
+    },
+    "pumpkin___healthy": {
+      "train": 373,
+      "val": 80,
+      "test": 80
+    },
+    "rice___Bacterial_blight": {
+      "train": 52,
+      "val": 12,
+      "test": 11
+    },
+    "rice___Blast": {
+      "train": 56,
+      "val": 12,
+      "test": 12
+    },
+    "rice___Brown_spot": {
+      "train": 70,
+      "val": 16,
+      "test": 15
+    },
+    "rice___Tungro": {
+      "train": 128,
+      "val": 28,
+      "test": 28
+    },
+    "rose___Botrytis_blight": {
+      "train": 369,
+      "val": 80,
+      "test": 79
+    },
+    "rose___Mosaic_virus": {
+      "train": 154,
+      "val": 34,
+      "test": 34
+    },
+    "rose___Pest_damage": {
+      "train": 532,
+      "val": 115,
+      "test": 115
+    },
+    "rose___healthy": {
+      "train": 770,
+      "val": 165,
+      "test": 165
+    },
+    "sesame___Insect_damage": {
+      "train": 495,
+      "val": 107,
+      "test": 106
+    },
+    "sesame___Leaf_spot": {
+      "train": 402,
+      "val": 87,
+      "test": 86
+    },
+    "sesame___Leaf_yellowing": {
+      "train": 601,
+      "val": 129,
+      "test": 129
+    },
+    "sesame___healthy": {
+      "train": 892,
+      "val": 192,
+      "test": 192
+    },
+    "sorghum___Anthracnose_and_red_rot": {
+      "train": 645,
+      "val": 139,
+      "test": 138
+    },
+    "sorghum___Covered_kernel_smut": {
+      "train": 161,
+      "val": 35,
+      "test": 35
+    },
+    "sorghum___Grain_mold": {
+      "train": 726,
+      "val": 156,
+      "test": 156
+    },
+    "sorghum___Head_smut": {
+      "train": 301,
+      "val": 65,
+      "test": 65
+    },
+    "sorghum___Loose_smut": {
+      "train": 985,
+      "val": 212,
+      "test": 212
+    },
+    "sorghum___Rust": {
+      "train": 1492,
+      "val": 320,
+      "test": 320
+    },
+    "soybean___Bacterial_blight": {
+      "train": 67,
+      "val": 15,
+      "test": 15
+    },
+    "soybean___Cercospora_leaf_blight": {
+      "train": 55,
+      "val": 12,
+      "test": 12
+    },
+    "soybean___Rust": {
+      "train": 64,
+      "val": 14,
+      "test": 14
+    },
+    "soybean___Sudden_death_syndrome": {
+      "train": 72,
+      "val": 16,
+      "test": 16
+    },
+    "soybean___healthy": {
+      "train": 3676,
+      "val": 788,
+      "test": 786
+    },
+    "strawberry___Leaf_scorch": {
+      "train": 776,
+      "val": 166,
+      "test": 167
+    },
+    "strawberry___healthy": {
+      "train": 393,
+      "val": 82,
+      "test": 77
+    },
+    "sugarcane___Mosaic": {
+      "train": 262,
+      "val": 57,
+      "test": 57
+    },
+    "sugarcane___Red_rot": {
+      "train": 355,
+      "val": 77,
+      "test": 76
+    },
+    "sugarcane___Rust": {
+      "train": 309,
+      "val": 67,
+      "test": 67
+    },
+    "sugarcane___Yellow_leaf_disease": {
+      "train": 346,
+      "val": 74,
+      "test": 74
+    },
+    "sugarcane___healthy": {
+      "train": 331,
+      "val": 71,
+      "test": 71
+    },
+    "sunflower___Alternaria_leaf_spot": {
+      "train": 75,
+      "val": 17,
+      "test": 16
+    },
+    "sunflower___Downy_mildew": {
+      "train": 84,
+      "val": 18,
+      "test": 18
+    },
+    "sunflower___Powdery_mildew": {
+      "train": 98,
+      "val": 22,
+      "test": 22
+    },
+    "sunflower___Wilt": {
+      "train": 75,
+      "val": 16,
+      "test": 16
+    },
+    "sunflower___healthy": {
+      "train": 69,
+      "val": 15,
+      "test": 15
+    },
+    "tea___Algal_leaf_spot": {
+      "train": 106,
+      "val": 23,
+      "test": 23
+    },
+    "tea___Brown_blight": {
+      "train": 133,
+      "val": 29,
+      "test": 29
+    },
+    "tea___Grey_blight": {
+      "train": 127,
+      "val": 28,
+      "test": 28
+    },
+    "tea___Red_leaf_spot": {
+      "train": 131,
+      "val": 29,
+      "test": 29
+    },
+    "tea___healthy": {
+      "train": 139,
+      "val": 30,
+      "test": 30
+    },
+    "tomato___Bacterial_spot": {
+      "train": 1570,
+      "val": 334,
+      "test": 327
+    },
+    "tomato___Early_blight": {
+      "train": 758,
+      "val": 161,
+      "test": 159
+    },
+    "tomato___Late_blight": {
+      "train": 1411,
+      "val": 300,
+      "test": 297
+    },
+    "tomato___Leaf_mold": {
+      "train": 737,
+      "val": 156,
+      "test": 149
+    },
+    "tomato___Mosaic_virus": {
+      "train": 297,
+      "val": 63,
+      "test": 66
+    },
+    "tomato___Septoria_leaf_spot": {
+      "train": 1348,
+      "val": 285,
+      "test": 276
+    },
+    "tomato___Spider_mites": {
+      "train": 1174,
+      "val": 252,
+      "test": 252
+    },
+    "tomato___Target_spot": {
+      "train": 983,
+      "val": 211,
+      "test": 210
+    },
+    "tomato___Yellow_leaf_curl_virus": {
+      "train": 3806,
+      "val": 814,
+      "test": 809
+    },
+    "tomato___healthy": {
+      "train": 1160,
+      "val": 248,
+      "test": 246
+    },
+    "turmeric___Dry_leaf": {
+      "train": 141,
+      "val": 31,
+      "test": 31
+    },
+    "turmeric___Leaf_blotch": {
+      "train": 139,
+      "val": 30,
+      "test": 30
+    },
+    "turmeric___Rhizome_rot": {
+      "train": 126,
+      "val": 28,
+      "test": 27
+    },
+    "turmeric___healthy": {
+      "train": 266,
+      "val": 58,
+      "test": 57
+    },
+    "wheat___Septoria_leaf_blotch": {
+      "train": 67,
+      "val": 15,
+      "test": 15
+    },
+    "wheat___Stripe_rust": {
+      "train": 145,
+      "val": 31,
+      "test": 31
+    },
+    "wheat___healthy": {
+      "train": 70,
+      "val": 16,
+      "test": 15
+    },
+    "zucchini___Downy_mildew": {
+      "train": 57,
+      "val": 13,
+      "test": 13
+    },
+    "zucchini___Iron_chlorosis": {
+      "train": 29,
+      "val": 6,
+      "test": 6
+    },
+    "zucchini___Xanthomonas_leaf_spot": {
+      "train": 24,
+      "val": 6,
+      "test": 5
+    },
+    "zucchini___Yellow_mosaic_virus": {
+      "train": 118,
+      "val": 26,
+      "test": 26
+    }
+  }
+}

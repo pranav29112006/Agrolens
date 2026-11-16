@@ -1,0 +1,69 @@
+{
+  "wheat___Stripe_rust": {
+    "cause": "Fungus (Puccinia striiformis f. sp. tritici), also called yellow rust",
+    "symptoms": [
+      "Small pale spots appear first on the leaves.",
+      "Yellow to light orange pustules break out of the spots.",
+      "After tillering, the pustules line up along the leaf veins, giving the leaf a striped look.",
+      "In severe cases pustules also develop on the heads."
+    ],
+    "treatment": [
+      "On susceptible varieties, consider a fungicide when stripe rust has been found in the region and cool, wet weather is forecast.",
+      "Spraying at flag leaf emergence protects the flag leaf and reduces yield loss.",
+      "Fungicides work best before the disease is well developed; spraying after it has taken hold is unlikely to give good control.",
+      "Protection lasts about 21 to 28 days and does not cover new growth, so a second spray may be needed."
+    ],
+    "prevention": [
+      "Plant resistant varieties: this is the main way to manage stripe rust.",
+      "Avoid a variety the next season if it had significant stripe rust in your area.",
+      "Do not plant winter wheat too early.",
+      "Control grassy weeds and volunteer wheat."
+    ],
+    "severity": "Develops best at 50 to 64 °F. Currently the most economically important wheat rust, with yield losses reaching 100% in susceptible varieties.",
+    "sources": [
+      {
+        "title": "An Overview of Stripe Rust of Wheat, Crop Protection Network",
+        "url": "https://cropprotectionnetwork.org/publications/an-overview-of-stripe-rust-of-wheat"
+      },
+      {
+        "title": "A review of wheat diseases: a field perspective, Molecular Plant Pathology",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6638159/"
+      }
+    ],
+    "weather": {
+      "min_temp_c": 10.0,
+      "max_temp_c": 18.0,
+      "needs_moisture": true
+    }
+  },
+  "wheat___Septoria_leaf_blotch": {
+    "cause": "Fungus (Zymoseptoria tritici), also called septoria tritici blotch",
+    "symptoms": [
+      "Elongated oval spots form on leaves; they are limited by the leaf veins, so they look rectangular.",
+      "Water-soaked patches appear, surrounded by yellowing or dead leaf tissue.",
+      "Spots merge into large areas of dead brown tissue.",
+      "Mature spots may contain small black dots, but these are not always visible."
+    ],
+    "treatment": [
+      "Fungicides are the main control in most crops.",
+      "Time sprays to protect the lower leaves first and then the upper leaves.",
+      "Treat susceptible varieties promptly.",
+      "Use a balanced fungicide mix to slow resistance."
+    ],
+    "prevention": [
+      "Grow varieties with high septoria resistance ratings.",
+      "Avoid sowing early: later autumn sowing lowers disease pressure."
+    ],
+    "severity": "Losses of 50% may occur in severely affected crops.",
+    "sources": [
+      {
+        "title": "Septoria tritici in winter wheat, AHDB",
+        "url": "https://ahdb.org.uk/knowledge-library/septoria-tritici-in-winter-wheat"
+      },
+      {
+        "title": "A review of wheat diseases: a field perspective, Molecular Plant Pathology",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6638159/"
+      }
+    ]
+  }
+}

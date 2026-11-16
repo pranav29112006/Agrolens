@@ -1,0 +1,79 @@
+{
+  "apple___Apple_scab": {
+    "cause": "Fungus (Venturia inaequalis)",
+    "symptoms": [
+      "Leaves have olive-green to brown spots.",
+      "Spots are round and velvety with fringed edges.",
+      "Older spots turn dark brown to black and grow together.",
+      "Leaves with many spots turn yellow and drop by mid-summer."
+    ],
+    "treatment": [
+      "Rake up and remove fallen leaves: infected leaves are the source of next year's infection.",
+      "Fungicide does not help a tree that is already infected this year. On trees with a history of severe scab, start spraying the following spring at the half-inch green tip stage.",
+      "Captan, lime-sulfur and powdered or wettable sulfur are used for control."
+    ],
+    "prevention": [
+      "Plant scab-resistant apple varieties.",
+      "Remove fallen leaves in autumn.",
+      "Space trees properly and prune so air moves through the canopy."
+    ],
+    "severity": "Losing leaves many years in a row weakens the tree.",
+    "sources": [
+      {
+        "title": "Apple scab of apples and crabapples, University of Minnesota Extension",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/apple-scab"
+      }
+    ]
+  },
+  "apple___Black_rot": {
+    "cause": "Fungus (Diplodia seriata)",
+    "symptoms": [
+      "Leaves develop circular spots with purplish or reddish edges and light tan centres.",
+      "Large brown rotten areas appear on the fruit, mostly at the blossom end, with brown to black rings on larger infections.",
+      "Branches show cankers: sunken, reddish-brown areas."
+    ],
+    "treatment": [
+      "Prune out dead or diseased branches.",
+      "Remove mummified fruit from the tree.",
+      "Fungicides are not recommended unless sanitation and tree care fail to manage the disease."
+    ],
+    "prevention": [
+      "Remove infected material from the area.",
+      "Prune properly and at the right time of year.",
+      "Keep trees healthy with adequate water, and manage fire blight.",
+      "Remove the stumps of cut trees, which can be a source of spores."
+    ],
+    "severity": null,
+    "sources": [
+      {
+        "title": "Black rot of apple, University of Minnesota Extension",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/black-rot-of-apple"
+      }
+    ]
+  },
+  "apple___Cedar_apple_rust": {
+    "cause": "Fungus (cedar-apple rust), which needs both apple and juniper or red cedar to complete its life cycle",
+    "symptoms": [
+      "Leaf spots are yellow at first, then turn bright orange-red, often with a bright red border.",
+      "Small raised black dots form in the centre of mature spots on the upper leaf surface.",
+      "Very short finger-like tubes stick out from the underside of the leaf, directly below the spots.",
+      "Rarely, green to brown irregular spots with black dots form on the fruit."
+    ],
+    "treatment": [
+      "Leaf spots can usually be tolerated: the disease does not significantly affect the tree's overall health.",
+      "In late winter or early spring, inspect nearby junipers and red cedars and prune out the brown woody galls before they produce orange structures.",
+      "Prune out infected twigs or branches on the apple tree if they occur."
+    ],
+    "prevention": [
+      "Plant rust-resistant apple varieties.",
+      "Do not plant eastern red cedar or junipers within a few hundred yards of susceptible apple trees."
+    ],
+    "severity": "Damages the leaves and fruit of very susceptible apple varieties, but is only a minor problem on resistant or partly resistant trees.",
+    "sources": [
+      {
+        "title": "Cedar-apple rust and related rust diseases, University of Minnesota Extension",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/yard-and-garden-problems/cedar-apple-rust"
+      }
+    ]
+  }
+}
